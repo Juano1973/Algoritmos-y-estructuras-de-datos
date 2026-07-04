@@ -1,0 +1,54 @@
+16
+Vancouver,49.266668,-123.114294
+Toronto,43.697276,-79.395923
+Nueva York,40.790199,-73.960812
+Los Angeles,34.042532,-118.238050
+Dallas,32.776717,-96.752184
+Kansas,39.096473,-94.533071
+Houston,29.770532,-95.373668
+Atlanta,33.759652,-84.390985
+Boston,42.345308,-71.072333
+Philadelphia,39.978182,-75.142060
+Miami,25.774322,-80.220646
+Seattle,47.628036,-122.305477
+San Francisco,37.755697,-122.442085
+Ciudad de Mexico,19.402318,-99.125089
+Guadalajara,20.685098,-103.338148
+Monterrey,25.694786,-100.319398
+36
+Vancouver,Seattle,1
+Vancouver,Toronto,9
+Vancouver,Los Angeles,5
+Seattle,San Francisco,3
+Seattle,Los Angeles,4
+San Francisco,Los Angeles,2
+Los Angeles,Dallas,6
+Los Angeles,Guadalajara,4
+Los Angeles,Monterrey,5
+Dallas,Houston,1
+Dallas,Kansas,2
+Dallas,Atlanta,4
+Houston,Monterrey,3
+Houston,Atlanta,3
+Houston,Miami,5
+Houston,Ciudad de Mexico,5
+Kansas,Toronto,4
+Kansas,Atlanta,3
+Kansas,Nueva York,5
+Atlanta,Miami,2
+Atlanta,Philadelphia,3
+Atlanta,Nueva York,4
+Philadelphia,Nueva York,1
+Philadelphia,Boston,2
+Nueva York,Boston,1
+Nueva York,Toronto,2
+Boston,Toronto,2
+Miami,Ciudad de Mexico,5
+Monterrey,Ciudad de Mexico,2
+Monterrey,Guadalajara,2
+Guadalajara,Ciudad de Mexico,1
+Monterrey,Miami,7
+Vancouver,Philadelphia,10
+Seattle,Boston,11
+Houston,Guadalajara,3
+Nueva York,Monterrey,8

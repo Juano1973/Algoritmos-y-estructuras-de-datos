@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+	<Document>
+		<name>Camino desde Vancouver hacia Los Angeles</name>
+
+		<Placemark>
+			<name>Vancouver</name>
+			<Point>
+				<coordinates>49.266668, -123.114294</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Seattle</name>
+			<Point>
+				<coordinates>47.628036, -122.305477</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>San Francisco</name>
+			<Point>
+				<coordinates>37.755697, -122.442085</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Los Angeles</name>
+			<Point>
+				<coordinates>34.042532, -118.238050</coordinates>
+			</Point>
+		</Placemark>
+
+		<Placemark>
+			<LineString>
+				<coordinates>49.266668, -123.114294 47.628036, -122.305477</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<LineString>
+				<coordinates>47.628036, -122.305477 37.755697, -122.442085</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<LineString>
+				<coordinates>37.755697, -122.442085 34.042532, -118.238050</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>
