@@ -2,12 +2,11 @@ package main
 
 import (
 	TDApila "entrenamiento/tdas/pila"
-	"fmt"
 )
 
 // O(n²)
 //Este ejercicio lo saque de otro repo de la misma materia, es jodido T_T
-
+/*
 func main() {
 	pila := TDApila.CrearPilaDinamica[int]()
 	pila.Apilar(4)
@@ -20,6 +19,7 @@ func main() {
 		fmt.Println(pila.Desapilar())
 	}
 }
+*/
 
 func Ordenar(pila TDApila.Pila[int]) {
 	pilaAuxiliar := TDApila.CrearPilaDinamica[int]()
