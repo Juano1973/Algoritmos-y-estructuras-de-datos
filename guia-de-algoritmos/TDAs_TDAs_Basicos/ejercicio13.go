@@ -181,7 +181,10 @@ func (i *iteradorLista[T]) Borrar() T {
 func SumaPares(l listaEnlazada[*int]) int {
 	sumatoria := 0
 	l.Iterar(func(t *int) bool {
-		sumatoria += *t
+		if t != nil && *t%2 == 0 {
+			sumatoria += *t
+		}
+
 		return true
 	})
 

@@ -1,16 +1,16 @@
 package main
 
-type colaDinamica[T any] struct {
-	primero *nodoCola[T]
-	ultimo  *nodoCola[T]
+type colaDinamicaa[T any] struct {
+	primero *nodoColaa[T]
+	ultimo  *nodoColaa[T]
 }
 
-type nodoCola[T any] struct {
+type nodoColaa[T any] struct {
 	dato      T
-	siguiente *nodoCola[T]
+	siguiente *nodoColaa[T]
 }
 
-func (c *colaDinamica[T]) Multiprimeros(k int) []T {
+func (c *colaDinamicaa[T]) Multiprimeros(k int) []T {
 	arreglo := make([]T, 0)
 	actual := c.primero
 	for range k {
