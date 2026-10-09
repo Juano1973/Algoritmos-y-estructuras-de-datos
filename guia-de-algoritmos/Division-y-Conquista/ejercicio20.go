@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type joyas struct {
 	id   int
 	peso int
@@ -26,6 +24,7 @@ func balanza(arr1, arr2 []joyas) int {
 	return 0
 }
 
+/*
 func main() {
 	// Se arma un caso de prueba con 5 joyas: 4 imitaciones (peso 10) y 1 verdadera (peso 15)
 	cofreDePrueba := []joyas{
@@ -49,6 +48,7 @@ func main() {
 
 	fmt.Printf("Joya devuelta por el algoritmo: ID %d (Peso: %d)\n", resultado.id, resultado.peso)
 }
+*/
 func verdadersJoya(cofre_joyas []joyas) joyas {
 	return _obtener_joya(cofre_joyas, 0, len(cofre_joyas))
 }
