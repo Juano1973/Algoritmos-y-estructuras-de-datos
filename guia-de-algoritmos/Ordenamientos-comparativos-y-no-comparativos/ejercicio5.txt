@@ -1,0 +1,31 @@
+
+https://www.youtube.com/watch?v=OKd534EWcdk
+
+tengo este arreglo
+
+1988 - Crónicas del Ángel Gris
+2000 - Los Días del Venado
+1995 - Alta Fidelidad
+1987 - Tokio Blues
+2005 - En Picada
+1995 - Crónica del Pájaro que Da Cuerda al Mundo
+1995 - Ensayo Sobre la Ceguera
+2005 - Los Hombres que No Amaban a las Mujeres
+
+
+arrancamos contando frecuencias por anio
+1987 1988 1995 2000 2005 
+[1 1 3 1 2]
+
+ahora calculamos los inicios sumandole al siguiente la totalidad del anterior
+[1 2 5 6 8]
+ahora movemos a la izquierda los numeros
+[0 1 2 5 6]
+
+ahora recorremos el arreglo original y vamos inyectando en el arreglo ordenado
+1988 tiene frecuencia 1 e inicio en 1, lo inyecto en el indice 1
+2000 tiene frecuencia 1 e inicio en 6, lo inyecto en la posicion 5
+1995 tiene frecuencia 3 e inicio en 2, lo inyecto en la posicion 2
+y asi sucesivamente...
+
+[1987 1988 1995 1995 1995 2000 2005]

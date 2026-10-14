@@ -1,0 +1,12 @@
+
+
+
+1. Falso, podemos obtener el mejor caso si sabemos de antemano el elemento mas central para usarlo de pivote, 
+pero creeria que no podemos hacerlo que el mejor caso si contaramos con info extra
+
+
+2. Verdadero, para ordenar numeros enteros no es lo optimo usar counting sort ya que si no tienen un rango limitado
+no se podria usar el algoritmo
+
+
+3. Falso, que un algoritmo sea estable implica que mantiene el orden relativo de los elementos

@@ -1,0 +1,2 @@
+En este caso lo mejor seria un ordenamiento comparativo, ya que no tenemos informacion extra que beneficie
+a algun ordenamiento no comparativo
