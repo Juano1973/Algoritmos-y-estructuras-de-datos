@@ -1,0 +1,7 @@
+
+
+En un hash abierto, el obtener puede ser peor que O(1) si se producen demasiadas colisiones sobre una celda del arreglo
+ya que tendria que recorrer la lista enlazada hasta dar con el par clave valor buscado
+
+En un hash cerrado pasaria lo mismo en caso de demasiadas colisiones, recorreria en el peor caso n posiciones hasta
+o dar con la clave valor buscada o encontrar una celda vacia

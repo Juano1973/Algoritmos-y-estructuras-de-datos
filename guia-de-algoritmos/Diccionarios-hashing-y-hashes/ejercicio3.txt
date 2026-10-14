@@ -1,0 +1,2 @@
+Creeria que esa funcion de hashing seria mala, ya que genera un valor aleatorio entero entre 0 y 10000,
+por lo que es bastante probable que dos elementos colisionen con una probabilidad 1/10000

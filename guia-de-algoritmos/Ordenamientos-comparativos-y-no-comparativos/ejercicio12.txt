@@ -1,0 +1,11 @@
+
+
+No podriamos ordenar floats entre 0 y 1 con counting sort, ya que necesitamos valores discretos para poder
+operar correctamente con counting sort. De ultima se podria si tuvieran un rango acotado de decimales, por ejemplo
+numeros flotantes de maximo 10 decimales, ahi podriamos
+
+
+Un algoritmos que podriamos usar para ordenar valores en el rango continuo entre 0 y 1 seria bucket sort, ya que podemos
+acotar los valores y ordenarlos de forma eficiente O(n)
+
+Complejidad countingsort = O(n + k) donde n es numero de elemtos de arreglo y k es el rango de valores posibles

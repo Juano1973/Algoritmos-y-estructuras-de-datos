@@ -2,7 +2,7 @@ package main
 
 func countinggsortt(arreglo []int, k int, f func(int) int) []int {
 
-	frecuencias := make([]int, 0)
+	frecuencias := make([]int, k)
 	for _, e := range arreglo {
 		frecuencias[f(e)] += 1
 	}
@@ -36,11 +36,13 @@ func parte_c(num int) int {
 	return num % 10
 }
 
+/*
 func main() {
-	arreglo := []int{543, 654, 345, 234, 654, 765, 876}
-	ordenad := countinggsortt(arreglo, 10, parte_b)
-	ordenad_b := countinggsortt(ordenad, 10, parte_a)
-	ordenad_c := countinggsortt(ordenad_b, 10, parte_c)
+	arreglo := []int{122, 369, 332, 180, 486, 349, 326, 101}
+	ordenado := countinggsortt(arreglo, 100, parte_b)
+	ordenado_b := countinggsortt(ordenado, 1000, parte_a)
+	ordenado_c := countinggsortt(ordenado_b, 10, parte_c)
 
-	println(ordenad_c)
+	fmt.Println(ordenado_c)
 }
+*/
