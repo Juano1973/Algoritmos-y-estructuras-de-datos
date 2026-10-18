@@ -1,0 +1,16 @@
+
+
+
+pre order es EURMAONDVSZT
+in order es MRAUOZSVDNET
+
+
+                            V
+            U                           E
+    R               O               N       T
+M      A        Z       S       D
+
+
+
+
+El recorrido postorder es MARZSOUDNEV

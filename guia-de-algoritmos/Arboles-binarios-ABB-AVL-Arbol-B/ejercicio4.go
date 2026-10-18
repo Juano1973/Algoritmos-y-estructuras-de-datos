@@ -1,6 +1,6 @@
 package main
 
-func (a *abb[K, V]) dos_hijos() int {
+func (a *ArbolAbb) dos_hijos() int {
 
 	if a.hijoder == nil && a.hijoizq == nil {
 		return 0

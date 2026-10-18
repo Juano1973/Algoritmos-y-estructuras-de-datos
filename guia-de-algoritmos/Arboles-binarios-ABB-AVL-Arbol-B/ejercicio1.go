@@ -1,27 +1,20 @@
 package main
 
-type abb[K comparable, V any] struct {
-	hijoizq *abb[K, V]
-	hijoder *abb[K, V]
-	clave   K
-	dato    int
-}
+func (a *nodoAbb[K, V]) altura() int {
 
-func (a *abb[K, V]) altura() int {
-
-	if a.hijoder == nil && a.hijoizq == nil {
+	if a.izq == nil && a.izq == nil {
 		return 1
 	}
 
 	var izq int = 0
 	var der int = 0
 
-	if a.hijoizq != nil {
-		izq = a.hijoizq.altura()
+	if a.der != nil {
+		izq = a.izq.altura()
 	}
 
-	if a.hijoder != nil {
-		der = a.hijoder.altura()
+	if a.der != nil {
+		der = a.der.altura()
 	}
 
 	return max(izq, der) + 1

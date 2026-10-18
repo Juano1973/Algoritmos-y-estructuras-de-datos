@@ -1,8 +1,9 @@
 package main
 
 type Arbol struct {
-	izq *Arbol
-	der *Arbol
+	izq   *Arbol
+	der   *Arbol
+	clave int
 }
 
 func (arbol *Arbol) Invertir() {

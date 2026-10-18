@@ -1,6 +1,12 @@
 package main
 
-func (a *abb[K, V]) sumatoria() int {
+type ArbolAbb struct {
+	hijoder *ArbolAbb
+	hijoizq *ArbolAbb
+	dato    int
+}
+
+func (a *ArbolAbb) sumatoria() int {
 
 	if a.hijoder == nil && a.hijoizq == nil {
 		return a.dato
