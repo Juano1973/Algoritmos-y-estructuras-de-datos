@@ -2,7 +2,7 @@ package main
 
 func (a *nodoAbb[K, V]) altura() int {
 
-	if a.izq == nil && a.izq == nil {
+	if a.izq == nil && a.der == nil {
 		return 1
 	}
 
