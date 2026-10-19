@@ -1,0 +1,9 @@
+
+
+
+Si sos un nodo con dos hijos, tu predecesor en el recorrido in order, es el elemento mas "facho" de un subarbol izquierdo,
+ya que en el recorrido in order de un subarbol termina en su elemento mas a la derecha.
+
+El sucedor de dicho nodo, no podria tener hijo izquierdo, ya que el recorrido in order que parte de dicho nodo, arranca
+por el elemnto mas "zurdo" de su subarbol (no podria ser mas izquierdista que su hijo izquierdo)
+

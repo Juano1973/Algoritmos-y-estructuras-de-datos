@@ -1,2 +1,18 @@
 
 
+1. Falso, recorrido in order 1,2,3
+        2                           1
+    1       3                           2       
+                                            3
+
+
+2. Falso, recorrido pre order 1,2,3
+
+        1                   1
+    2       3                   2   
+                                    3
+
+
+3. Verdadero, dos arboles binarios de busqueda con la misma funcion de comparacion,
+tenderian a generar recorridos identicos, ya que "juegan" con las mismas reglas
+"todo lo mayor a la derecha y todo lo menor a izquierda"       
