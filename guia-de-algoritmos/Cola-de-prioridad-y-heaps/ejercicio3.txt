@@ -1,0 +1,4 @@
+
+
+Si quisiera los primeros k elementos, creo q lo mas conveniente seria desencolar K veces,
+lo que nos daria una complejidad temporal de O(k log n)

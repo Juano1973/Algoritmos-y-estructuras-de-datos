@@ -1,0 +1,5 @@
+
+
+En un arbol, el ultimo nivel de un arbol completo representa la mitad de los nodos del mismo arbol,
+entonces las posibles posiciones del minimo elemento representan las ultimas f posiciones del arreglo siendo
+f la longitud del ultimo nivel del arbol

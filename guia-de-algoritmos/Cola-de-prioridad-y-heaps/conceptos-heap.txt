@@ -1,0 +1,10 @@
+
+
+padre = (i - 1) // 2
+hijo_izq = (2 * i) + 1
+hijo_der = (2 * i) + 2
+
+heapsort es primero hacer heapify(convertir un arreglo en un heap), luego ir intercambiando el primero con el ultimo
+y hacer downheap desde la raiz
+
+downheap es mirar para abajo, y switchear con el hijo que no cumpla la condicion

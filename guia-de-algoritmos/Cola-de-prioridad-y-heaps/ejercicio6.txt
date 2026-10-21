@@ -1,0 +1,4 @@
+
+
+se pueden implementar una cola y una pila donde a cada elemento que entra se le asigna un contador o valor que delate cuando
+entro en el arbol, dependiendo si el arbol pondera los elementos mas antiguos o mas nuevos, es que podemos obtener una cola o una pila
