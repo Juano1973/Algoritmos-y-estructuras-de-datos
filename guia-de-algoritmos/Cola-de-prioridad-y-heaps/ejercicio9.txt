@@ -1,0 +1,6 @@
+
+
+
+El tema con esa implementacion, es que si bien obtener el maximo es O(1) (igual que la implementacion clasica
+del heap), el obtener el nuevo maximo se torna en algo O(n).
+Por lo que desencolar n veces, se torna en O(n²)
