@@ -175,3 +175,108 @@ def topologico_grados(grafo):
             if g_ent[w] == 0:
                 q.encolar(w)
     return resultado
+
+
+
+
+
+
+
+
+
+
+def dijkstra2(grafo: Grafo, origen):
+
+    heap = Heap()
+
+    distancia = {v:float("inf") for v in grafo.obtener_vertices()}
+
+
+    distancia[origen] = 0
+    padres = {origen: None}
+
+    heap.Encolar((0, origen))
+
+    while not heap.EstaVacio():
+
+        _, v = heap.Desencolar()
+
+        for w in grafo.adyacentes(v):
+            distancia_por_aca = distancia[v] + grafo.peso_arista(v,w)
+            if distancia_por_aca < distancia[w]:
+                distancia[w] = distancia_por_aca
+                padres[w] = v
+                heap.Encolar((distancia_por_aca,w))
+
+
+    return padres, distancia 
+
+
+
+def bellman_ford2(grafo, origen):
+
+    aristas = obtener_aristas()
+    distancia = {v: float("inf") for v in grafo.Obtener_vertices()}
+    distancia[origen] = 0
+    padres = {origen:None}
+
+    for i in range(grafo.obtener_vertices()):
+        cambio = False
+        for peso, v, w in aristas:
+            distancia_por_aca = distancia[v] + peso
+            if distancia_por_aca < distancia[w]:
+                distancia[w] = distancia_por_aca
+                padres[w] = v
+                cambio = True
+
+
+    return padres, distancia
+
+
+
+def prim(grafo: Grafo):
+
+    arbol = Grafo(False, grafo.obtener_aristas())
+    heap = Heap()
+    visitados = set()
+
+    for w in grafo.adyacentes(v):
+        heap.Encolar((v, w), grafo.peso(v, w))
+
+    primero = grafo.vertice_aleatorio()
+    visitados.add(primero)
+
+
+    while not heap.EstaVacio():
+
+        v, w, peso = heap.Desencolar()
+
+        if w in visitados:
+            continue
+
+        arbol.agregar_arista(v,w,peso)
+        visitados.add(w)
+
+        for x in grafo.adyacentes(w):
+            heap.Encolar(x)
+
+    return arbol
+
+
+def kruskal(grafo):
+
+    aristas = sorted(obtener_aristas())
+    conjuntos = UnionFind(grafo.obtener_vertices())
+    arbol = Grafo(False,grafo.obtener_vertices())
+
+    for ar in aristas:
+
+        v, w, peso = ar
+
+        if conjuntos.find(v) == conjuntos.find(w):
+            continue
+
+        arbol.agregar_arista(v, w, peso)
+        conjuntos.union(v,w)
+
+    return arbol
