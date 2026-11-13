@@ -1,0 +1,7 @@
+
+
+
+b
+
+Para la traduccion, hay que hacer V veces E cosas.
+Por lo que supongo que seria O(V x E)
