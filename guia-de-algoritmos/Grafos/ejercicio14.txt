@@ -1,0 +1,7 @@
+
+
+
+
+Las ventajas de la lista de adyacencias por sobre matriz de adyacencia
+sabiendo que la densidad es |E|/max|E| > 0.75 o superior
+

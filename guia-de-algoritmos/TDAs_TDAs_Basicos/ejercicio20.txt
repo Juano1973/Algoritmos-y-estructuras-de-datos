@@ -1,0 +1,6 @@
+
+
+
+Basicamente, Barbara no tiene por que ocuparse de como redimensionar
+el arreglo, es algo de lo que se tiene que abstraer, el tda mismo tiene 
+que saber redimensionarse y como

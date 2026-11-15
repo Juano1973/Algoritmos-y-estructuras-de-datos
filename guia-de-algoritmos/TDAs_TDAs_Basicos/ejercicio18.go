@@ -2,7 +2,6 @@ package main
 
 import (
 	TDApila "entrenamiento/tdas/pila"
-	"fmt"
 )
 
 func cant_pila[T any](pila TDApila.Pila[T]) int {
@@ -16,16 +15,16 @@ func cant_pila[T any](pila TDApila.Pila[T]) int {
 	return cantidad + 1
 }
 
-func main() {
-
-	pila := TDApila.CrearPilaDinamica[int]()
-	for i := range 100 {
-		pila.Apilar(i)
-	}
-	pila.Desapilar()
-	pila.Desapilar()
-	pila.Desapilar()
-
-	fmt.Println(cant_pila(pila))
-
-}
+//func main() {
+//
+//	pila := TDApila.CrearPilaDinamica[int]()
+//	for i := range 100 {
+//		pila.Apilar(i)
+//	}
+//	pila.Desapilar()
+//	pila.Desapilar()
+//	pila.Desapilar()
+//
+//	fmt.Println(cant_pila(pila))
+//
+//}

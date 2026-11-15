@@ -1,0 +1,5 @@
+
+
+
+Supongo que es una cola normal, la cual tiene un tope maximo.
+Ya que en cualquier cola encolar y desencolar es O(1)

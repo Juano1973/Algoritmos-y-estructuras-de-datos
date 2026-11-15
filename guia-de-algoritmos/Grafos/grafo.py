@@ -101,3 +101,24 @@ grafo_no_bipartito = Grafo(es_dirigido=False, vertices_iniciales=['X', 'Y', 'Z']
 grafo_no_bipartito.agregar_arista('X', 'Y')
 grafo_no_bipartito.agregar_arista('Y', 'Z')
 grafo_no_bipartito.agregar_arista('Z', 'X')
+
+
+
+
+
+
+
+"""
+Lista de adyacencia
+
+    Lista de listas donde se albergan los adyacentes de un vertice
+
+Matriz de adyacencia
+
+    Vertices/Vertices
+
+Matriz de incidencia
+
+    Aristas/Vertices
+    
+"""
