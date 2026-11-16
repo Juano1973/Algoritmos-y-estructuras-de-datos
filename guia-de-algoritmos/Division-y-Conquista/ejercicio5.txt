@@ -1,0 +1,15 @@
+
+
+Teorema maestro:
+
+T(n) = a . T(n/b) + O(n^c)
+
+a: Cant de llamados recursivos
+b: En cuanto se reduce el subproblema
+c: Todo lo que no es recursivo
+
+Log_b(A) < C   T(n) = O(n^c)
+Log_b(A) = C   T(n) = O(n^c log(n))
+Log_b(A) > C   T(n) = O(n^logb(A))
+
+

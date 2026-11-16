@@ -1,0 +1,18 @@
+
+
+
+
+a: 3
+b: 3
+c: 1
+
+log_3(3) = 1 = c 
+la complejidad seria O(n log(n))
+
+Si diviera en n partes el arreglo, se pareceria mas a selection este 
+algoritmo, ya que hay n elementos, y ordena recorriendo todos
+buscando el minimo. el orden de selection es O(n^2)
+
+Creeria que no cambia, porque mientras a y b sean iguales,
+siempre van a ser iguales a c, por lo que siempre terminaria en la 
+misma complejidad

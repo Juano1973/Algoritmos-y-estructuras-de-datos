@@ -1,0 +1,27 @@
+
+
+
+
+
+
+1
+
+a: 5
+b: 2
+c: 1
+
+log_2(5) = 2.32 > c
+O(n^1 log_2(5)) 
+
+2
+
+a: 9
+b: 3
+c: 2
+
+Log_3(9) = 2 = c
+O(n^2 log(n)) 
+
+3
+
+Este no porque no conviene decrementar en uno el problema

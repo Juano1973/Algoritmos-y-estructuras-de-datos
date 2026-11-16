@@ -1,0 +1,7 @@
+
+
+
+Ese codigo no es de division y conquista, ya que no realiza llamadas
+recursivas para resolver el problema, es una funcion normal, la cual
+llama dos veces a otra, no stackea llamadas recursivas las cuales
+resuelvan el problema llamada a llamada

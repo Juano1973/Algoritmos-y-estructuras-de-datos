@@ -1,0 +1,15 @@
+
+
+
+
+
+La complejidad de ese algoritmos es
+
+a: 2
+
+b: 3/2
+
+c: 1/2
+
+
+log_3/2(2) = 1.70 > 1/2  O(n^log_3/2(a)) = O(n^1.7095)

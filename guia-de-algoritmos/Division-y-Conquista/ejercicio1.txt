@@ -1,0 +1,7 @@
+
+
+
+ese codigo no es de division y conquista,
+ya que no parte el problema en varias partes,
+simplemente va decrementando su longitud en una unidad
+cuando tendria que hacerlo en partes "porcentuales" (la mitad, un tercio, etc)
